@@ -1,4 +1,4 @@
-from django.colf.urls import url, include
+from django.conf.urls import url, include
 from .views import all_items
 
 urlpatterns = [

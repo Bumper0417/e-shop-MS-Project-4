@@ -2,6 +2,7 @@
 
 {% block content %}
     <!-- Product Shop Section Begin -->
+    {% for item in items %}
     <section class="product-shop spad page-details">
         <div class="container">
             <div class="row">
@@ -90,7 +91,7 @@
                                 </div>
                                 <div class="pd-desc">
                                     <p class="item-description">{{ item.description }}</p>
-                                    <h4>$495.00 <span>629.99</span></h4>
+                                    <h4>{{ item.price }}</h4>
                                 </div>
                                 <div class="pd-size-choose">
                                     <div class="sc-item">
@@ -110,7 +111,10 @@
                                     <div class="pro-qty">
                                         <input type="text" value="1">
                                     </div>
-                                    <a href="#" class="primary-btn pd-cart">Add To Cart</a>
+                                    <form method="post" action="{% url 'add_to_cart' item.id %}">
+                                        {% csrf_token %}
+                                        <button class="primary-btn pd-cart">Add To Cart</button>
+                                    </form>
                                 </div>
                                 <div class="pd-share">
                                     <div class="p-code">Code Number : {{ item.code }}</div>
@@ -183,18 +187,10 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="p-catagory">Weight</td>
-                                                <td>
-                                                    <div class="p-weight">1,3kg</div>
-                                                </td>
-                                            </tr>
-                                            <tr>
                                                 <td class="p-catagory">Size</td>
                                                 <td>
-                                                    <div class="p-size">Xxl</div>
+                                                    <div class="p-size">{{ item.size }}</div>
                                                 </td>
-                                            </tr>
-                                            <tr>
                                             </tr>
                                             <tr>
                                                 <td class="p-catagory">Code Number:</td>
@@ -261,5 +257,6 @@
             </div>
         </div>
     </section>
+    {% endfor %}
     <!-- Product Shop Section End -->
 {% endblock %}
