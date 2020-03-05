@@ -18,6 +18,7 @@ from django.contrib import admin
 from accounts import urls as urls_accounts
 from items import urls as urls_items
 from cart import urls as urls_cart
+from search import urls as urls_search
 from items.views import all_items
 from django.views import static
 from .settings import MEDIA_ROOT
@@ -28,5 +29,6 @@ urlpatterns = [
     url(r'^accounts/', include(urls_accounts)),
     url(r'^items/', include(urls_items)),
     url(r'^cart/', include(urls_cart)),
+    url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT}),
 ]
