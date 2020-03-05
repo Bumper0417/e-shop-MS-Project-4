@@ -1,7 +1,10 @@
-/*body {
+.nav-item active{
+    background-image: url('https://i.insider.com/5e343c225bc79c7a61468665?width=1100&format=jpeg&auto=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Arial;
-    padding-top: 100px;
 }
+
 
 footer {
     margin-top: 40px;
@@ -32,7 +35,7 @@ footer {
     background-color: #c67605;
 }
 
-.product {
+.item {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -61,6 +64,6 @@ caption p {
     border: 1px solid #ddd;
 }
 
-.product-description {
+.item-description {
     min-height: 40px;
 }
