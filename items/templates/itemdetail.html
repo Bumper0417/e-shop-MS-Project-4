@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row row-flex">
+    <div class="container-fluid">
+        <div class="item" style="background-image: url('{{ MEDIA_URL }}{{ item.image }}')"></div>
+        <div class="item-info">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <p>{{ item.price }}</p>
+        </div>
+        <form method="post" action="{% url 'add_to_cart' item.id %}">
+            {% csrf_token %}
+            <div class="size-choise dropdown">Choose your size
+                <ul>
+                    <li>Small</li>
+                    <li>Medium</li>
+                    <li>Large</li>
+                </ul>
+            </div>
+            <div class="input-group">
+                <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="submit">Add</button>
+                </span>
+            </div>
+        </form>
+        <button class="btn btn-small">Back To Products</button>
+        <button class="btn btn-small">Proceed to Payment</button>
+    </div>
+</div>
+
+{% endblock %}
