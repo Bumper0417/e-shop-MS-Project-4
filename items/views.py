@@ -16,6 +16,5 @@ def item_detail(request, pk):
     Or return a 404 error if the item is
     not found"""
     item = get_object_or_404(Item, pk=pk)
-    item.save()
+    # Pass an item from the view to the template `{"item": item}`
     return render(request, "itemdetail.html", {"item": item})
-
