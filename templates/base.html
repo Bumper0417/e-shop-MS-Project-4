@@ -32,9 +32,9 @@
                     Categories
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Men Clothes</a>
-                        <a class="dropdown-item" href="#">Women Clothes</a>
-                        <a class="dropdown-item" href="#">Kids Clothes</a>
+                        <a class="dropdown-item" href="{% url 'category_choice' category_choice='m' %}">Men Clothes</a>
+                        <a class="dropdown-item" href="{% url 'category_choice' category_choice='w' %}">Women Clothes</a>
+                        <a class="dropdown-item" href="{% url 'category_choice' category_choice='k' %}">Kids Clothes</a>
                     </div>
                 </li>
       

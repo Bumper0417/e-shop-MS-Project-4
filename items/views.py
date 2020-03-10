@@ -18,3 +18,10 @@ def item_detail(request, pk):
     item = get_object_or_404(Item, pk=pk)
     # Pass an item from the view to the template `{"item": item}`
     return render(request, "itemdetail.html", {"item": item})
+
+
+def category_choice(request, category_choice):
+    """Create a view that returns Items from a specific Category based on the category ID (pk)
+    and renders it to the "items.html" template"""
+    category_choice = Item.objects.filter(categories=category_choice)
+    return render(request, "items.html", {"items": category_choice})
