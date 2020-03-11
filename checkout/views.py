@@ -8,10 +8,10 @@ from django.utils import timezone
 from items.models import Item
 import stripe
 
-
 # Create your views here.
 
 stripe.api_key = settings.STRIPE_SECRET
+
 
 @login_required()
 def checkout(request):
