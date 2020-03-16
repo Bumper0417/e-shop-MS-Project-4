@@ -9,15 +9,15 @@
             <p>{{ item.description }}</p>
             <p>{{ item.price }}</p>
         </div>
+        <div class="item-size ">Choose your size
+            <ul class="dropdown" aria-hidden="true">
+                <li><a href="" class="dropdown-item">Small</a></li>   
+                <li><a href="" class="dropdown-item">Medium</a></li>
+                <li><a href="" class="dropdown-item">Large</a></li>
+            </ul>
+        </div>
         <form method="post" action="{% url 'add_to_cart' item.id %}">
             {% csrf_token %}
-            <div class="size-choise dropdown">Choose your size
-                <ul>
-                    <li>Small</li>
-                    <li>Medium</li>
-                    <li>Large</li>
-                </ul>
-            </div>
             <div class="input-group">
                 <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
                 <span class="input-group-btn">

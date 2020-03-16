@@ -4,6 +4,17 @@
     font-family: Arial;
 }
 
+ul.navbar-nav.ml-auto li {
+    margin: 0 20px;
+}
+
+ul.navbar-nav.ml-auto li a {
+    color: #A9A9A9;
+}
+
+ul.navbar-nav.ml-auto li a:hover {
+    color: black;
+}
 
 footer {
     margin-top: 40px;
