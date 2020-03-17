@@ -4,6 +4,12 @@
     font-family: Arial;
 }
 
+/*-----------------Navigation Bar Styling--------------*/
+
+.navbar {
+    background-color: #7a8566;
+}
+
 ul.navbar-nav.ml-auto li {
     margin: 0 20px;
 }
@@ -15,6 +21,12 @@ ul.navbar-nav.ml-auto li a {
 ul.navbar-nav.ml-auto li a:hover {
     color: black;
 }
+
+.fa-grin-hearts{
+    color:#54b842;
+}
+
+/*-----------------Footer--------------*/
 
 footer {
     margin-top: 40px;

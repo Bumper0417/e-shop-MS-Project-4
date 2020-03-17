@@ -22,7 +22,7 @@ def add_to_cart(request, id):
     return redirect(reverse('index'))
     
 
-def adjust_cart(request):
+def adjust_cart(request, id):
     """Adjust the quantity of the specified item to the specified amount"""
     quantity = int(request.POST.get('quantity'))
     cart = request.session.get('cart', {})
