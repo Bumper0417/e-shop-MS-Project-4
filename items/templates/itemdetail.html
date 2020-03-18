@@ -9,13 +9,15 @@
             <p>{{ item.description }}</p>
             <p>{{ item.price }}</p>
         </div>
+        
         <div class="item-size "><label for="sizes">Choose your size</label>
             <select id="sizes">
-                <option value="s">Small</option>
-                <option value="m">Medium</option>
-                <option value="l">Large</option>  
+                {% for size in item.sizes.all %}
+                <option value="{{ size }}">{{ size }}</option>
+                {% endfor %} 
             </select>
         </div>
+
         <form method="post" action="{% url 'add_to_cart' item.id %}">
             {% csrf_token %}
             <div class="input-group">
