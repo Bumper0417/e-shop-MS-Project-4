@@ -32,6 +32,5 @@ class Size(models.Model):
     size = models.CharField(max_length=3, choices=sizes_choices)
     item = models.ManyToManyField(Item, related_name='sizes')
     
-
     def __str__(self):
         return self.size
