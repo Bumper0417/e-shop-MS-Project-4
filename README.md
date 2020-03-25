@@ -24,11 +24,11 @@ My main purpose when creating the webpage was to ensure that our products are av
 
 ### Wireframes 
 
-![Mobile-Version](./media/wireframes/IMG_4888.jpg)
-![Desktop-Version-NBA-Shop](./media/wireframes/IMG_4884.jpg)
-![Desktop-Version-Home-Page](.media/wireframes/IMG_4885.jpg)
-![Desktop-Version-Products-Page](./media/wireframes/IMG_4886.jpg)
-![Desktop-Version-Product-View](./media/wireframes/IMG_4887.jpg)
+![Mobile-Version](wireframes/IMG_4888.jpg)
+![Desktop-Version-NBA-Shop](wireframes/IMG_4884.jpg)
+![Desktop-Version-Home-Page](wireframes/IMG_4885.jpg)
+![Desktop-Version-Products-Page](wireframes/IMG_4886.jpg)
+![Desktop-Version-Product-View](wireframes/IMG_4887.jpg)
 
 ## Features
 
