@@ -55,6 +55,7 @@ In the future i would like to add some customer review page where users can leav
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used for storing all my pages.
 - [CSS](https://no.wikipedia.org/wiki/Cascading_Style_Sheets) Used for the styling of my webpage.
 - [Javascript](https://no.wikipedia.org/wiki/JavaScript) Used for initialising my buttons and some functions for my payment methods(Stripe API).
+- [Stripe](https://stripe.com/en-no) Used for accepting payments for feature upvotes.
 - [Bootstrap](https://getbootstrap.com/docs/4.4/) Used for styling of the webpage.
 - [Font-Awesome-Icons](https://fontawesome.com/icons?d=gallery&m=free) used for styling my navigation bar and some other sections.
 - [Jquery](https://en.wikipedia.org/wiki/JQuery) Used for manipulating the dom and for the Stripe API developement.
@@ -64,7 +65,9 @@ In the future i would like to add some customer review page where users can leav
 - [Django](https://docs.djangoproject.com/en/3.0/releases/1.11/) For all the functionality and all my coding.
 - [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine)) Used for displaying elements from back-end to front-end.
 - [Git](https://en.wikipedia.org/wiki/Git) Used for writting commands and inserting new documents in my webpage
-- [Github](https://github.com/) Used to store my webpage for the users to have access to that and for my tutors and mentor to help me with my Milestone Project
+- [Github](https://github.com/) Used to store my webpage for the users to have access to that and for my tutors and mentor to help me with my Milestone Project.
+- [PostgreSQL](https://www.postgresql.org/)Used for deployment in Heroku.
+- [Gunicorn](https://docs.gunicorn.org/en/stable/) Used as the http server.
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) Used for the deployment of my project.
 
 ## Testing
@@ -138,13 +141,27 @@ In addition my project is deployed in Heroku and the live link can be viewed her
 
 [Happy-Cooking](https://happy-cooking-project-3.herokuapp.com/)
 
-The website consists of:
-1. A static folder with a css folder,which has a style.css file and a wireframes folder with 2 wireframe images. 
-2. A templates folder with 9 html pages.
-3. An app.py file where all the backend is stored.
-4. A procfile for the deployment in Heroku.
-5. A requirements.txt file
-6. The README.md file of the webpage.
+ In addition the website consists of:
+1. A static folder with a css folder,which has a custom.css file and a js folder in which you will find the functionality required for the Stripe API. 
+2. A templates folder with a registration folder which contains: 
+    1. password_reset_complete.html, 
+    2. password_reset_confirm.html, 
+    3. password_reset_done.html,
+    4. password_reset_email.html,
+    5. password_reset_form.html 
+And the base.html file which is the main html page of my project.
+3. A wireframes folder which contains all the wireframes i created for the project.
+4. A search folder which contains all the files required for my search functionality.
+5. A media folder which together with the static folder are hosted to the s3 bucket in my AWS account.
+6. An items folder which created by django and contains all the django files together with 2 html files(items.html, itemdetail.html)required for my products page.
+7. A home folder with my index.html page, which is the redirect page for the home section and all thee files from django.
+8. A checkout folder wich contains the functionality for the payment form.
+9. A cart folder which contains the developement for the cart section in my webpage.
+10. An accounts page used for the Authorisation/Authentication of the users.
+11. The eshop folder which is the mail page that all the urls and settings for the webpage are hosted.
+12. A travis.yml for testing the deployment
+13. A custom_storages Python file used for the storing of my data in AWS console.
+14. An env.py file which hosts all the important keys of my webpage and is pushed in the .gitignore file.
 
 ## Credits
 
