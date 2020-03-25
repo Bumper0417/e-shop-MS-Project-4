@@ -24,26 +24,29 @@ My main purpose when creating the webpage was to ensure that our products are av
 
 ### Wireframes 
 
-![Mobile-Version](media/wireframes/IMG_4888.jpg)
-![Desktop-Version-NBA-Shop](media/wireframes/IMG_4884.jpg)
-![Desktop-Version-Home-Page](media/wireframes/IMG_4885.jpg)
-![Desktop-Version-Products-Page](media/wireframes/IMG_4886.jpg)
-![Desktop-Version-Product-View](media/wireframes/IMG_4887.jpg)
+![Mobile-Version](./media/wireframes/IMG_4888.jpg)
+![Desktop-Version-NBA-Shop](./media/wireframes/IMG_4884.jpg)
+![Desktop-Version-Home-Page](.media/wireframes/IMG_4885.jpg)
+![Desktop-Version-Products-Page](./media/wireframes/IMG_4886.jpg)
+![Desktop-Version-Product-View](./media/wireframes/IMG_4887.jpg)
 
 ## Features
 
-- Happy Cooking is a webpage that allows the user to have an easy access and by clicking the "Happy Cooking" logo to always redirect to the home page.
-- In the home page there are the recipes together with 3 buttons(View, Edit, Delete) where the user can manipulate the recipes.
-- In the home page there are also 3 input fields together with a search button to be able to make the user specify the search by suitability(For Vegans or Vegeterians), country(Italy, Greece, Mexico, Thailand) and catecory(Appetisers, Starters, Main Courses, Desserts).
-- There is also a navigation bar, created with [Materialise](https://materializecss.com/navbar.html) with 3 sections on the right top corner (Our Recipes, Add your Recipe, Categories):
-1. By clicking "Our Recipes" logo it will always redirect you to the home page where all the recipes are stored.
-2. By clicking "Add Your Recipe" logo it will redirect you to the page where you can add your recipe.
-3. By clicking "Categories" logo it will redirect you to the page where all the categories are stored and there you can add, edit and delete a category.
-- The webpage is also using a slide-out side-navigation bar in order to make it more easy to access by mobile phone [Materialise](https://materializecss.com/mobile.html).
+- NBA Shop is a webpage that allows the user to have an easy access and by clicking the "Home" logo in the Navigation Bar to always redirect to the home page.
+- In the home page there are information about the History of the webpage as well as links to the other sections of the webpage.
+- In the webpage there is also an input search field together with a search button to be able to make the user specify the search.
+- There is also a navigation bar, created with [Bootstrap](https://getbootstrap.com/docs/4.4/components/navbar/) with 4 sections on the left top corner (NBA Shop, Home, Our Products, Categories) and 3 sections on the right top corner(Profile/Register, Log in/out, Cart):
+1. By clicking "NBA Shop" logo it will redirect you to the welcome page.
+2. By clicking "Home" logo it will redirect you to the home page where you can have an overview of the webpage, info about the purpose, history, and owners of the webpage, togetheer with links to redirect to the products page.
+3. By clicking "Our Products" logo you will be redirected in the items page,where you can see all of our products and by clicking in each one of them be able to see more details and buy it.
+4. By clicking "Categories" logo it will drop a menu with all the categories and by clicking each one of them you can see items by specific category (Men Clothes, Women Clothes, Kids Clothes).
+5. By clicking "Register/Profile" you are able to register and when do it then can "Log in/out" next to it.
+6. The "Cart" finally will redirect you to the page where you can see the items in your cart and be able to insert payment info after clicking "Checkout".
+7. The webpage is also using a slide-out side-navigation bar in order to make it more easy to access by mobile phone [Bootstrap](https://getbootstrap.com/docs/4.4/components/navbar/).
 
 ## Features Left to be implemented
 
-In the future i would like to add some links to social media and a registration form for new users.
+In the future i would like to add some customer review page where users can leave their comment and some links to social media .In addition some more zooms for the page and some etxra function like colour choosing, price range filter, etc.
 
 ## Technologies Used
 
@@ -51,18 +54,15 @@ In the future i would like to add some links to social media and a registration 
 
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used for storing all my pages.
 - [CSS](https://no.wikipedia.org/wiki/Cascading_Style_Sheets) Used for the styling of my webpage.
-- [Javascript](https://no.wikipedia.org/wiki/JavaScript) Used for initialising my buttons and some functions for my recipes.
-- [Materialise](https://materializecss.com/) Used for styling of the webpage
-- [Material-Icons]( https://material.io/resources/icons/?style=baseline) used for styling my input elements.
-- [Jquery](https://en.wikipedia.org/wiki/JQuery) Used for manipulating the dom and add the elements to my project.
+- [Javascript](https://no.wikipedia.org/wiki/JavaScript) Used for initialising my buttons and some functions for my payment methods(Stripe API).
+- [Bootstrap](https://getbootstrap.com/docs/4.4/) Used for styling of the webpage.
+- [Font-Awesome-Icons](https://fontawesome.com/icons?d=gallery&m=free) used for styling my navigation bar and some other sections.
+- [Jquery](https://en.wikipedia.org/wiki/JQuery) Used for manipulating the dom and for the Stripe API developement.
 
 ### Back-End
 
-- [Flask 1.1.1](https://en.wikipedia.org/wiki/Flask_(web_framework)) A library used for the construction of the webpage
-- [Python 3.6.8](https://en.wikipedia.org/wiki/Python_(programming_language)) This is the back-end programming language
-- [MongoDB Atlas](https://en.wikipedia.org/wiki/MongoDB) To store all the data and collections of my webpage
-- [PyMongo 3.8.0](https://api.mongodb.com/python/current/) MongoDB's API to interact with the data.
-- [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine)) Used for displaying elements from back-end to front0end.
+- [Django](https://docs.djangoproject.com/en/3.0/releases/1.11/) For all the functionality and all my coding.
+- [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine)) Used for displaying elements from back-end to front-end.
 - [Git](https://en.wikipedia.org/wiki/Git) Used for writting commands and inserting new documents in my webpage
 - [Github](https://github.com/) Used to store my webpage for the users to have access to that and for my tutors and mentor to help me with my Milestone Project
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) Used for the deployment of my project.
@@ -161,6 +161,6 @@ I recieved inspiration from sites such as:
 - [W3schools](https://www.w3schools.com/)
 - [Stackflow](https://stackoverflow.com/)
 - [Youtube](https://www.youtube.com/watch?v=dTN8cBDEG_Q&feature=youtu.be)
-- [MongoDB](https://docs.mongodb.com/manual/text-search/#example)
+- [Django](https://docs.djangoproject.com/en/3.0/topics/db/models/#extra-fields-on-many-to-many-relationships)
 - [Github](https://github.com/Code-Institute-Submissions/COOK-BOOK-4)
-- [Recipes](https://www.bbcgoodfood.com/)
+- [Mini-Project](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+F101+2017_T1/courseware/c95cdb47b7bb40e49bbfb75cb4c29114/aeae610154354469a5a902a7f5458d93/?child=last)
