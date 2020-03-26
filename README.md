@@ -116,37 +116,21 @@ In the future i would like to add some customer review page where users can leav
 | Clicking on Log in after being registered and after filling all the forms | Displays a success message says that you are logged in successfully | As Expected | Pass |
 | Clicking on Log Out | Displays a success message that you are logged out | As Expected | Pass |
 
-**Cart Functionality/Navigation Bar:**
+**Cart/Checkout Functionality/Navigation Bar:**
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on Categories in the Navigation Bar | Appears a dropdown menu with 3 Categories(Men Clothes, Women Clothes, Kids Clothes) | As Expected | Pass |
-| Clicking on Mens Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
-| Clicking on Women Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
-| Clicking on Kids Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+| Clicking on Cart in the Navigation Bar | Redirects the user to the cart page and displays all products have been added by the user, the ammend button to delete the product and a checkout button | As Expected | Pass |
+| Clicking on Checkout without being logged in | Redirects the user to the log in page  | As Expected | Pass |
+| Clicking on Checkout after being logged in | Redirects the user to the checkout page where the user can add the details to buy the product | As Expected | Pass |
+| Clicking on Submit Payment without filling all the forms | Displays validation to tell the user to fill in all the forms | As Expected | Pass |
+| Clicking on Submit Payment after filling all the forms | Displays success message that the payment has been submitted | As Expected | Pass |
 
 **Search Filter Box Functionality:**
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on Add Category button without filling all the forms | Displays Validation to tell the user to enter all the forms | As Expected | Pass |
-| Clicking Add Category button after filling all the forms | Redirect to the categories page and the category is added | As expected | Pass |
-| Click on Edit Category button to a category and press the edit button without filling the forms | Displays Validation to tell the user to enter all the forms | As expected | Pass | 
-| Clicking Edit Recipe button after changing some of the forms | Redirect to the categories page and the category is edited | As expected | Pass |
-| Clicking Delete Category button | Removes the category and redirects to the categories page | As expected | Pass |
-
-**Filter Functionality:**
-
-| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
-| :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on filter button when choosing vegeterian in suitability | Displays all the recipes that fit for vegeterians | As Expected | Pass |
-| Clicking on filter button when choosing vegan in suitability | Displays all the recipes that fit for vegans | As Expected | Pass || Click on Edit Category button to a category and press the edit button without filling the forms | Displays Validation to tell the user to enter all the forms | As expected | Pass | 
-| Clicking on filter button when choosing Mexico in country | Displays all the recipes that originated form Mexico | As Expected | Pass |
-| Clicking on filter button when choosing Thai in country | Displays all the recipes that originated from Thailand | As Expected | Pass |
-| Clicking on filter button when choosing Greece in country | Displays all the recipes that originated from Greece | As Expected | Pass |
-| Clicking on filter button when choosing Italy in country | Displays all the recipes that originated from Italy | As Expected | Pass |
-| Clicking on filter button when choosing a specific Category in category | Displays all the recipes that refer to this specific category | As Expected | Pass |
-| Clicking on filter button when applying multiple filters | Displays all the recipes that fit to the category,country of origin and suitability that are selected | As Expected | Pass |
+| Type in the Search box and press the Search Button | Displays results filtered by the words you have written in the input field | As Expected | Pass |
 
 **Styling of the Webpage:**
 
