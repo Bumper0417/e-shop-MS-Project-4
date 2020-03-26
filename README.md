@@ -163,7 +163,7 @@ For the deployment of this project to Heroku:
 ```json
 
     if "DATABASE_URL" in os.environ:
-    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+        DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
 
     else:
         print("Database url not found. Using sqlite instead.")
