@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/Bumper0417/e-shop-MS-Project-4.svg?branch=master)](https://travis-ci.com/Bumper0417/e-shop-MS-Project-4)
 
-# Happy Cooking Webpage
+# NBA E-Shop Webpage
 
 Milestone Project 4: Full Stack Frameworks with Django - Code Institute
 
