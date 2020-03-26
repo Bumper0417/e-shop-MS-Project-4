@@ -72,31 +72,60 @@ In the future i would like to add some customer review page where users can leav
 
 ## Testing
 
-- For the potencial users of my webpage that want to be able to see the recipes by clicking a button I have created a view button from Materialise and is triggered in my view_recipe.html with jinja. 
+- For the potencial users of my webpage that want to be able to see the products by clicking a button I have created a *Products* section in my *Navigation Bar* from [Bootstrap](https://getbootstrap.com/docs/4.4/navigation) and the click on each specific product to see the details and purchase it. 
 
-**Add Recipe Functionality:**
-
-| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
-| :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on Add recipe button without filling all the forms | Displays Validation to tell the user to enter all the forms | As Expected | Pass |
-| Clicking Add Recipe button after filling all the forms | Redirect to the home page and the recipe is added | As expected | Pass |
-| Click on View Button to the recipe that you added | All the information of the recipe display fine | As expected | Pass | 
-
-**Edit Recipe Functionality:**
+**Home Page/Navigation Bar:**
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on Edit recipe button without filling all the forms | Displays Validation to tell the user to enter all the forms | As Expected | Pass |
-| Clicking Edit Recipe button after changing some of the forms | Redirect to the home page and the recipe is edited | As expected | Pass |
-| Click on View Button to the recipe that you added | All the information of the recipe display fine | As expected | Pass | 
+| Clicking on Home in the Navigation Bar | Displays information of the webpage and the history together with links to other sections and image backgourd | As Expected | Pass |
+| Clicking on Links in the Home page | Redirects to the appropriate page(Products, etc. ) | As expected | Pass | 
 
-**Delete Recipe Functionality:**
+**Products Page/Navigation Bar:**
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
-| Clicking on Delete recipe button | Removes the recipe and redirects to the home page | As Expected | Pass |
+| Clicking on Products in the Navigation Bar | Displays all the products that the webpage has with some information(Image, Short Description,Price, etc.) | As Expected | Pass |
+| Clicking on a single product  | Redirect to the itemdetail page and displays info about the specific product together with (Add Button, Size Selector, etc.) | As expected | Pass |
+| Choose a size in a specific product and add the quantity | The product is added in the cart and ready to purchase with the right size and quantity | As expected | Pass | 
 
-**Categories CRUD Functionality:**
+**Categories/Navigation Bar:**
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Categories in the Navigation Bar | Appears a dropdown menu with 3 Categories(Men Clothes, Women Clothes, Kids Clothes) | As Expected | Pass |
+| Clicking on Mens Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+| Clicking on Women Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+| Clicking on Kids Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+
+**Profile/Register/Navigation Bar:**
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Register in the Navigation Bar | Redirects to the accounts registration form where you can register as a new user or sign in  if already have an account | As Expected | Pass |
+| Clicking on Create Account without filling up all the sections | Display Validation to tell the user to enter all the forms | As Expected | Pass |
+| Clicking on Create Account after filling the sections | Displays a success message and logs the user in the page. | As Expected | Pass |
+| Clicking on Profile after Registration is successfull | Displays a message that welcomes the user to the webpage and provides a link to the products page. | As Expected | Pass |
+
+**Log In/Out Functionality/Navigation Bar:**
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Log In without being registered | Appears an error message says your password or username is incorrect | As Expected | Pass |
+| Clicking on Log In after being registered without filling all the forms  | Displays validation to tell the user to enter all the forms | As Expected | Pass |
+| Clicking on Log in after being registered and after filling all the forms | Displays a success message says that you are logged in successfully | As Expected | Pass |
+| Clicking on Log Out | Displays a success message that you are logged out | As Expected | Pass |
+
+**Cart Functionality/Navigation Bar:**
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Clicking on Categories in the Navigation Bar | Appears a dropdown menu with 3 Categories(Men Clothes, Women Clothes, Kids Clothes) | As Expected | Pass |
+| Clicking on Mens Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+| Clicking on Women Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+| Clicking on Kids Clothes Category | Displays, after filtering, all the products related to this specific Category | As Expected | Pass |
+
+**Search Filter Box Functionality:**
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
