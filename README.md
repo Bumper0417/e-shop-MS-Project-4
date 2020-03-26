@@ -135,11 +135,67 @@ The biggest problem I faced when creating this website was how to identify and i
 
 My webpage is hosted in Github and deployed directly from the master branch. The whole project can be viewed here:
 
-[Bumper-Milestone-Project-3](https://github.com/Bumper0417/Milestone-project-3-Python)
+[Bumper-e-shop-MS-Project-4]()
 
 In addition my project is deployed in Heroku and the live link can be viewed here: 
 
-[Happy-Cooking](https://happy-cooking-project-3.herokuapp.com/)
+[NBA-Eshop]()
+
+### In details
+
+For the deployment of this project to Heroku:
+- I have created an application in Heroku called: ***e-shop-ms-project4***
+- On the resourses section went in the ***Add-ons*** and Attached ***Heroku-Postgres*** as the Database.
+- Then went in the ***settings*** section in Heroku app and copied the link I found in the ***Reveal config Vars*** next to ***DATABASE_URL***
+- On my terminal window in my Gitpod Workspace I typed those commands:
+    > ***pip3 install dj-database-urls***
+    > ***pip3 install psycopg2***
+- And the installed the webserver required by Heroku with this command:
+    > ***pip3 install gunicorn***
+- After I created a Procfile in the main Root of the project workspace .
+- I used this command:
+    > ***web: gunicorn e-shop-ms-project4.wsgi:application***
+- Then installed all my applications:
+    > ***pip3 freeze > requirements.txt***
+- After that i needed of course to import my database in the settings file:
+    > ***import dj_database_url***
+- And modified the ***Databases*** section in my settings.py to hide the keys of my database:
+```json
+
+    if "DATABASE_URL" in os.environ:
+    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+
+    else:
+        print("Database url not found. Using sqlite instead.")
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            }
+        }
+```
+- Removed this from settings:
+    > ***import env***
+- Then added my heroku app in the ***Allowed Hosts*** in my ***settings.py*** file:
+    > ***ALLOWED_HOSTS = ['e-shop-ms-project4.herokuapp.com']***
+- After that I imported all my *KEY-VALUE* pairs from my ***env.py*** to my ***Config Vars*** in HerokuApp:
+
+    1. *STRIPE_PUBLISHABLE*
+    2. *STRIPE_SECRET*
+    3. *DATABASE_URL*
+    4. *SECRET_KEY*
+    5. *AWS_ACCESS_KEY_ID*
+    6. *AWS_SECRET_ACCESS_KEY*
+- And because we are using **Static** in our ***s3 Bucket*** we set:
+    - *DISABLE_COLLECTSTATIC* in the ***Config Vars*** to 1.
+- Then I committed and pushed all my changes to Github:
+    > ***git add .***
+    > ***git commit -m "The message..."
+    > ***git push***
+- After that went in the ***Deploy*** section in my Heroku App and connected it with my Github Repository.
+- And then when my site was live in Heroku I pressed *Automatic Deployment* in the ***Deploy Branch*** button.
+
+
 
  In addition the website consists of:
 1. A static folder with a css folder,which has a custom.css file and a js folder in which you will find the functionality required for the Stripe API. 
