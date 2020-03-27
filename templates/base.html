@@ -43,6 +43,10 @@
                 </li>
       
             </ul>
+            <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" name="q" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
             <ul class="navbar-nav ml-auto">
                 {% if user.is_authenticated %}
                     <li><a href="{% url 'profile' %}"><i class="fas fa-user"></i>  Profile</a></li>
@@ -72,15 +76,8 @@
             </div>
         </div>
     {% endif %}
-    <div class="container">
-        <div class="display">
-            <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" name="q" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-        {% block content %} {% endblock %}
-    </div>
+    
+    {% block content %} {% endblock %}
     <footer>
         <div class="container">
             <p>Have a look at the latest trends in NBA apparel</p>
