@@ -9,7 +9,7 @@
 
 
 #fullimage {
-            background-image: url('media/images/background.jpg');
+            background-image: url('/media/images/background.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             width:100vw;
