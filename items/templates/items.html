@@ -3,24 +3,16 @@
 {% block content %}
 <div class="row row-flex">
     {% for item in items %}
-        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-            <div class="panel-body">
-                <div class="item" style="background-image: url('{{ MEDIA_URL }}{{ item.image }}')"></div>
-
-                <h3>{{ item.name }}</h3>
-                <p class="item-description">{{ item.introduction }}</p>
-                <p>{{ item.price }}</p>
-
-                <form method="post" action="{% url 'add_to_cart' item.id %}">
-                    {% csrf_token %}
-                    <div class="input-group">
-                        <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
-                        <span class="input-group-btn">
-                            <button class="btn btn-success" type="submit">Add</button>
-                        </span>
-                    </div>
-                </form>
-                <a href="{% url 'item_detail' item.id %}" class="btn btn-success">View</a>
+        <div class="card-deck">
+            <div class="card">
+                <img src="url('{{ MEDIA_URL }}{{ item.image }}')" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text">{{ item.introduction }}</p>
+                    <p class="card-text">{{ item.price }}</p>
+                </div>
+            <div class="card-view">
+                <a href="{% url 'item_detail' item.id %}"><small class="text-muted">View</small></a>
             </div>
         </div>
     {% endfor %}

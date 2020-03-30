@@ -1,17 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="row row-flex">
-    <div class="container-fluid">
-        <div class="item" style="background-image: url('{{ MEDIA_URL }}{{ item.image }}')"></div>
-        <div class="item-info">
-            <h3>{{ item.name }}</h3>
-            <p>{{ item.description }}</p>
-            <p>{{ item.price }}</p>
-        </div>
-        
-    </div>
-</div>
+
 <div class="card text-center" >
     <div class="row no-gutters">
         <div class="col-md-4">
@@ -22,6 +12,7 @@
                 <h5 class="card-title">{{ item.name }}</h5>
                 <p class="card-text">{{ item.description }}</p>
                 <p class="card-text">{{ item.price }} <i class="fas fa-euro-sign"></i></p>
+                <p class="card-text"><small class="text-muted">{{ item.availability }} Items in Stock</small></p>
                 <p class="card-text"><small class="text-muted">{{ item.features }}</small></p>
             </div>
             <div class="card-body"><label for="sizes">Choose your size</label>
@@ -35,14 +26,15 @@
                 {% csrf_token %}
                 <div class="input-group">
                     <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
+                    <br>
                         <span class="input-group-btn">
-                            <button class="btn btn-success" type="submit">Add</button>
+                            <button class="btn btn-success" type="submit">Add to Cart</button>
                         </span>
                 </div>
             </form>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
             <br>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="{% url 'items' %}" class="btn btn-primary">Back to Products Page</a>
+            
         </div>
     </div>
 </div>
