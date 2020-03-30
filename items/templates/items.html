@@ -11,10 +11,12 @@
                     <p class="card-text">{{ item.introduction }}</p>
                     <p class="card-text">{{ item.price }}</p>
                 </div>
-            <div class="card-view">
-                <a href="{% url 'item_detail' item.id %}"><small class="text-muted">View</small></a>
+                <div class="card-footer text-center">
+                    <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
+                </div>
             </div>
         </div>
+        <br>
     {% endfor %}
 </div>
 {% endblock %}

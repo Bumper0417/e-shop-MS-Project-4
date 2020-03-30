@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'items',
     'cart',
     'checkout',
-    #'storages',
+    # 'storages',
     "home",
 ]
 
@@ -140,10 +140,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-#AWS_S3_OBJECT_PARAMETERS = {
-    #'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-    #'CacheControl': 'max-age=94608000'
-#}
+# AWS_S3_OBJECT_PARAMETERS = {
+    # 'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+    # 'CacheControl': 'max-age=94608000'
+# }
 
 # AWS_STORAGE_BUCKET_NAME = 'e-shop-ms-project-4'
 # AWS_S3_REGION_NAME = 'eu-west-1'
@@ -159,12 +159,12 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 MEDIAFILES_LOCATION = 'media'
-DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+# DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
-MEDIA_URL = '/media/' #Delete this line after
+# MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
+MEDIA_URL = '/media/' # Delete this line after
 
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET')
