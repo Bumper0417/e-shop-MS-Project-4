@@ -1,22 +1,19 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="row row-flex">
+<div class="card-deck">
     {% for item in items %}
-        <div class="card-deck">
-            <div class="card">
-                <img src="url('{{ MEDIA_URL }}{{ item.image }}')" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">{{ item.name }}</h5>
-                    <p class="card-text">{{ item.introduction }}</p>
-                    <p class="card-text">{{ item.price }}</p>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
-                </div>
+        <div class="card">
+            <img src="url('{{ MEDIA_URL }}{{ item.image }}')" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">{{ item.introduction }}</p>
+                <p class="card-text">{{ item.price }}</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
             </div>
         </div>
-        <br>
     {% endfor %}
-</div>
+</div>   
 {% endblock %}
