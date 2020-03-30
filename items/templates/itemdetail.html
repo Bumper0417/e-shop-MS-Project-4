@@ -10,25 +10,40 @@
             <p>{{ item.price }}</p>
         </div>
         
-        <div class="item-size "><label for="sizes">Choose your size</label>
-            <select id="sizes">
-                {% for size in item.sizes.all %}
-                <option value="{{ size }}">{{ size }}</option>
-                {% endfor %} 
-            </select>
+    </div>
+</div>
+<div class="card text-center" >
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="https://images.sidelineswap.com/production/004/207/556/4fb4e9b7b7fd756a_small.jpeg" class="card-img" alt="...">
         </div>
-
-        <form method="post" action="{% url 'add_to_cart' item.id %}">
-            {% csrf_token %}
-            <div class="input-group">
-                <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
-                <span class="input-group-btn">
-                    <button class="btn btn-success" type="submit">Add</button>
-                </span>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+                <p class="card-text">{{ item.price }} <i class="fas fa-euro-sign"></i></p>
+                <p class="card-text"><small class="text-muted">{{ item.features }}</small></p>
             </div>
-        </form>
-        <button class="btn btn-small">Back To Products</button>
-        <button class="btn btn-small">Proceed to Payment</button>
+            <div class="card-body"><label for="sizes">Choose your size</label>
+                <select id="sizes">
+                    {% for size in item.sizes.all %}
+                        <option value="{{ size }}">{{ size }}</option>
+                    {% endfor %} 
+                </select>
+            </div>
+            <form method="post" action="{% url 'add_to_cart' item.id %}">
+                {% csrf_token %}
+                <div class="input-group">
+                    <input name="quantity" type="number" min="1" max="999" class="form-control" placeholder="Quantity">
+                        <span class="input-group-btn">
+                            <button class="btn btn-success" type="submit">Add</button>
+                        </span>
+                </div>
+            </form>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <br>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
     </div>
 </div>
 
