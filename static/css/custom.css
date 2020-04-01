@@ -67,6 +67,8 @@ ul.navbar-nav.ml-auto li a:hover {
 
 .col-mb-4 {
     text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 /*-----------------Footer--------------*/
 
