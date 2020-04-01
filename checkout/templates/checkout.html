@@ -13,11 +13,11 @@
 {% endblock head_js %}
 
 {% block content %}
-<div class="row row-cols-1 row-cols-md-2 justify-content-center">
+<div class="row row-cols-1 row-cols-md-4 justify-content-center">
     <div class="col mb-4">
         <div class="card-deck">
             {% for item in cart_items %}
-            <div class="card h-100">
+            <div class="card">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/71d6KUjzn2L._AC_UL1500_.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>
@@ -67,4 +67,6 @@
         <input class=" btn btn-primary" id="submit_payment_btn" name="commit" type="submit" value="Submit Payment">
     </div>
 </form>
+
 {% endblock %}
+
