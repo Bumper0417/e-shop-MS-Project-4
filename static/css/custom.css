@@ -48,6 +48,16 @@ ul.navbar-nav.ml-auto li a:hover {
     display: block;
     margin:0 auto;
 }
+
+.card-body {
+    text-align: center;
+}
+
+.form-group {
+    width:40%;
+    display: block;
+    margin:0 auto;
+}
 /*-----------------Footer--------------*/
 
 footer {

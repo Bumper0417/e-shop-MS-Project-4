@@ -1,19 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="card-deck">
-    {% for item in items %}
-        <div class="card">
-            <img src="url('{{ MEDIA_URL }}{{ item.image }}')" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">{{ item.name }}</h5>
-                <p class="card-text">{{ item.introduction }}</p>
-                <p class="card-text">{{ item.price }}</p>
-            </div>
-            <div class="card-footer text-center">
-                <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
-            </div>
+<div class="row row-cols-1 row-cols-md-2" style="margin: 10px; padding: 10px;">
+    <div class="col mb-4">
+        <div class="card-deck">
+            {% for item in items %}
+                <div class="card h-100">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71d6KUjzn2L._AC_UL1500_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.name }}</h5>
+                        <p class="card-text">{{ item.introduction }}</p>
+                        <p class="card-text">{{ item.price }} <i class="fas fa-euro-sign"></i></p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </div>
 </div>   
 {% endblock %}
