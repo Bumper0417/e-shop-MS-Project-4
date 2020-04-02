@@ -15,11 +15,6 @@ h4 a{
     color: white;
 }
 
-.image-size {
-    height:60%;
-    object-fit: cover;
-}
-
 /* Below adjusts the heigth of the caroursel and allows your footer to rise higher in the page */
 /* .carousel{
     height:px;
@@ -41,6 +36,9 @@ h4 a{
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+}
+.image-size{
+   height: 82vh;
 }
 
 /*-----------------Navigation Bar Styling--------------*/
