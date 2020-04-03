@@ -64,10 +64,6 @@ ul.navbar-nav.ml-auto li a:hover {
 }
 /*-----------------Card Styling--------------*/
 
-.text-center {
-    margin: 40px;
-}
-
 .input-group {
     width:40%;
     display: block;
