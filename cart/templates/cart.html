@@ -7,7 +7,7 @@
     <div class="col mb-4">
         <div class="card-deck">
             {% for item in cart_items %}
-            <div class="card cols-1 cols-md-4" >
+            <div class="card resize cols-1 cols-md-4">
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>
