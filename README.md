@@ -63,7 +63,6 @@ In the future i would like to add some customer review page where users can leav
 ### Back-End
 
 - [Django](https://docs.djangoproject.com/en/3.0/releases/1.11/) For all the functionality and all my coding.
-- [Jinja](https://en.wikipedia.org/wiki/Jinja_(template_engine)) Used for displaying elements from back-end to front-end.
 - [Git](https://en.wikipedia.org/wiki/Git) Used for writting commands and inserting new documents in my webpage
 - [Github](https://github.com/) Used to store my webpage for the users to have access to that and for my tutors and mentor to help me with my Milestone Project.
 - [PostgreSQL](https://www.postgresql.org/)Used for deployment in Heroku.
