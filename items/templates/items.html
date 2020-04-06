@@ -2,10 +2,10 @@
 
 {% block content %}
 <div class="row card-display">
-    <div class="col mb-4 ">
+    <div class="mb-4 ">
         <div class="card-deck ">
             {% for item in items %}
-                <div class="card cols-1 cols-md-4">
+                <div class="card col-1 col-md-2">
                     <img src="{{ MEDIA_URL }}{{ item.image }}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ item.name }}</h5>
@@ -13,7 +13,7 @@
                         <p class="card-text">{{ item.price }} <i class="fas fa-euro-sign"></i></p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="{% url 'item_detail' item.id %}" class="btn btn-success"><small class="text-muted">View</small></a>
+                        <a href="{% url 'item_detail' item.id %}" class="btn btn-success">View</a>
                     </div>
                 </div>
             {% endfor %}

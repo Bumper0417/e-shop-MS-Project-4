@@ -44,7 +44,7 @@ h4 a{
 /*-----------------Navigation Bar Styling--------------*/
 
 .navbar {
-    background-color: #7a8566;
+    background-color: #b38600;
 }
 
 ul.navbar-nav.ml-auto li {
@@ -91,10 +91,11 @@ ul.navbar-nav.ml-auto li a:hover {
     padding: 10px;
 }
 
-.col-mb-4 {
+.mb-4 {
     text-align: center;
     display: block;
     margin: 0 auto;
+    margin-left: 5%;
 }
 
 .card-deck>.card {
@@ -104,14 +105,19 @@ ul.navbar-nav.ml-auto li a:hover {
   margin-top: 25px;
 }
 
-.resize{
-    height: 35rem;
+/*-------------Buttons--------*/
+
+.btn {
+    background-color: cornflowerblue;
+    color: black;
 }
+
+
 
 /*-----------------Footer--------------*/
 
 footer {
-    background-color: #7a8566;
+    background-color: #b38600;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -130,11 +136,12 @@ footer {
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
+    background-color: cornflowerblue;
 }
 
 .label-warning[href],
 .badge-warning[href] {
-    background-color: #c67605;
+    background-color: aliceblue;
 }
 
 .item {
