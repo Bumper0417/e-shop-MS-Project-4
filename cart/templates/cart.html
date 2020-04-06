@@ -11,7 +11,6 @@
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>
-                    <p class="card-text">{{ item.item.introduction }}</p>
                     <p class="card-text">{{ item.item.price }} <i class="fas fa-euro-sign"></i></p>
                 </div>
                 <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
