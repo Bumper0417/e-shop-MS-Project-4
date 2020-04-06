@@ -97,6 +97,13 @@ ul.navbar-nav.ml-auto li a:hover {
     margin: 0 auto;
 }
 
+.card-deck>.card {
+  flex: 0 1 20% !important;
+  border-radius: calc(.25rem - 1px) !important;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
 /*-----------------Footer--------------*/
 
 footer {
