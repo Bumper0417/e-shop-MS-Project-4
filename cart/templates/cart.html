@@ -3,11 +3,11 @@
 {% load bootstrap_tags %}
 
 {% block content %}
-<div class="row row-cols-1 row-cols-md-4 justify-content-center">
+<div class="row card-display justify-content-center">
     <div class="col mb-4">
         <div class="card-deck">
             {% for item in cart_items %}
-            <div class="card h-100 cols-1 cols-md-4" >
+            <div class="card cols-1 cols-md-4" >
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>

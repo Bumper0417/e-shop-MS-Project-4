@@ -98,7 +98,7 @@ ul.navbar-nav.ml-auto li a:hover {
 }
 
 .card-deck>.card {
-  flex: 0 1 20% !important;
+  flex: 0 1 22.8% !important;
   border-radius: calc(.25rem - 1px) !important;
   margin-bottom: 25px;
   margin-top: 25px;
