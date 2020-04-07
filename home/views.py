@@ -1,9 +1,14 @@
 from django.shortcuts import render
+from items.models import Item
 
 # Create your views here.
 
 
 def index(request):
     """A view displays the index page"""
-    return render(request, "index.html")
+
+    # To find the first three at random: 
+    items = Item.objects.all().order_by('-price')[:3]
+
+    return render(request, "index.html", {"items": items})
     
