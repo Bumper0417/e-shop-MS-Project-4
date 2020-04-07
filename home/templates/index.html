@@ -57,11 +57,13 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <h2 style="margin-top:5px;">Best Deals for you</h2>
+    
     <div class="row card-display">
-    <div class="mb-4 ">
+
         <div class="card-deck ">
             {% for item in items %}
-                <div class="col-12 col-md-4 col-lg-2">
+                <div class="col-4">
                 <div class="card">
                     <img src="{{ MEDIA_URL }}{{ item.image }}" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -76,7 +78,6 @@
                 </div>
             {% endfor %}
         </div>
-    </div>
-</div>   
+    </div>   
 
 {% endblock %}

@@ -7,7 +7,8 @@
     <div class="mb-4">
         <div class="card-deck">
             {% for item in cart_items %}
-            <div class="card col-12 col-md-2">
+            <div class="col-12 col-md-4 col-lg-2 line-space">
+            <div class="card">
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>
@@ -26,14 +27,15 @@
                         </div>
                 </form>
             </div>
+            </div>
             {% endfor %}
         </div>
     </div>                  
 </div>
 <div class="row-cols-1 row-cols-md-2">
     <div class="mb-4">
-        <p>Total</p>
-        <p><span class="glyphicon glyphicon-euro" aria-hidden="true"></span>{{ total }}</p>
+        <p>Total:</p>
+        <p>{{ total }} <i class="fas fa-euro-sign"></i></p>
         <a href="{% url 'checkout' %}" class="btn btn-success" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
     </div>
 </div>
