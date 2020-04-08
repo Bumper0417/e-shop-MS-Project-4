@@ -44,7 +44,9 @@ h4 a{
     max-width: 100%; 
 }
 
-
+.container-box{
+    min-height: 100vh;
+}
 
 /*-----------------Navigation Bar Styling--------------*/
 
@@ -142,7 +144,36 @@ footer {
     background-color: #b38600;
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 120px;
+    margin: 0;
 }
+
+.social-links{
+    padding-bottom: 15px;
+ }
+.social-links li a i{
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 9px;
+    text-align: center;
+    color:	#A52A2A;
+    background-color:cornflowerblue;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+     
+}
+.social-links li a i:hover{
+     background-color: aliceblue;
+}
+#footer-details{
+    padding: 20px;
+}
+
 
 .icon-bar {
     background-color: #fff;

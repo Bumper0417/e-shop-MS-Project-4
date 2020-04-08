@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-    <h3>Awesome <i class="fas fa-grin-hearts"></i></h3>
-    <p>You are logged in as {{ user.email }}.</p>
-    <p>Have a look at our awesome NBA Jerseys <a href="{% url 'items' %}">here</a>.</p>
+    <div class="container-box">
+        <h3>Awesome <i class="fas fa-grin-hearts"></i></h3>
+        <p>You are logged in as {{ user.email }}.</p>
+        <p>Have a look at our awesome NBA Jerseys <a href="{% url 'items' %}">here</a>.</p>
+    </div>
 {% endblock %}
