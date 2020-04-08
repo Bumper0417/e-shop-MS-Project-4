@@ -1,11 +1,14 @@
 from django.shortcuts import render, redirect, reverse
+from items.models import Item
 
 # Create your views here.
 
 
 def view_cart(request):
     """A view tat renders the shopping cart contents page"""
-    return render(request, 'cart.html')
+
+    items = Item.objects.all().order_by('-price')[:3]
+    return render(request, 'cart.html', {"items": items})
 
 
 def add_to_cart(request, id):
@@ -34,5 +37,4 @@ def adjust_cart(request, id):
 
     request.session['cart'] = cart
     return redirect(reverse('view_cart'))
-    
     
