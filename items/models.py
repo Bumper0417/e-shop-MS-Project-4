@@ -25,11 +25,11 @@ class Item(models.Model):
 
 class Size(models.Model):
     sizes_choices = (
-        ('Small', 'sm'),
-        ('Medium', 'md'),
-        ('Large', 'lg')
+        ('s', 'Small'),
+        ('m', 'Medium'),
+        ('l', 'Large')
     )
-    size = models.CharField(max_length=3, choices=sizes_choices)
+    size = models.CharField(max_length=200, choices=sizes_choices)
     item = models.ManyToManyField(Item, related_name='sizes')
     
     def __str__(self):
