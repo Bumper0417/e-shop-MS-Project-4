@@ -126,6 +126,11 @@ ul.navbar-nav.ml-auto li a:hover {
 .card{
     height:100%;
 }
+
+.resize {
+    width:200px;
+}
+
 .line-space{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -150,6 +155,13 @@ ul.navbar-nav.ml-auto li a:hover {
 .flip {
   animation-duration: 3s;
   animation-delay: 2s;
+  animation-iteration-count: infinite;
+  color: #cc0000;
+}
+
+.bounceInDown {
+  animation-duration: 2s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   color: #cc0000;
 }
@@ -186,8 +198,14 @@ footer {
 .social-links li a i:hover{
      background-color: aliceblue;
 }
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 #footer-details{
-    padding: 20px;
+    padding-top: 15px;
+    color:aliceblue;
 }
 
 
@@ -263,3 +281,12 @@ caption p {
     margin-left: 0px;
     }
 }
+
+@media (min-width: 992px){
+    .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 100%;
+    }
+}
+    

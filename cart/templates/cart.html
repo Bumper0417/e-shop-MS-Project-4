@@ -8,7 +8,7 @@
         <div class="card-deck">
             {% for item in cart_items %}
             <div class="col-12 col-md-4 col-lg-2 line-space">
-            <div class="card">
+            <div class="card resize">
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>

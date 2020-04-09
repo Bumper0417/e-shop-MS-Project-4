@@ -18,7 +18,7 @@
         <div class="card-deck">
             {% for item in cart_items %}
             <div class="col-12 col-md-4 col-lg-2 line-space">
-            <div class="card">
+            <div class="card resize">
                 <img src="{{ MEDIA_URL }}{{ item.item.image }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">{{ item.item.name }}</h5>
@@ -49,7 +49,7 @@
 </div>
 
 <form role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
-    <legend style="margin: 5px;">Payment Details <i class="fas fa-hand-point-down"></i></legend>
+    <legend style="margin: 5px;">Payment Details <i class="fas fa-hand-point-down bounceInDown"></i></legend>
 
     <div id="credit-card-errors" style="display: none;">
         <div class="alert-message block-message error" id="stripe-error-message"></div>
