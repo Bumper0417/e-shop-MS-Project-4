@@ -138,6 +138,22 @@ ul.navbar-nav.ml-auto li a:hover {
     color: black;
 }
 
+/*-----------------Animation for Icons--------------*/
+
+.heartBeat {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  color: #cc0000;
+}
+
+.flip {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  color: #cc0000;
+}
+
 /*-----------------Footer--------------*/
 
 footer {
