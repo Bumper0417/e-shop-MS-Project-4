@@ -1,11 +1,24 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Item
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 # Create your views here.
 
 
 def all_items(request):
-    items = Item.objects.all()
+    items = Item.objects.all().order_by('id')
+    # Inserted Pagination for my items
+    paginator = Paginator(items, 12)
+
+    page = request.GET.get('page')
+        #?page=2
+    try:
+        items = paginator.page(page)
+    except PageNotAnInteger:
+        items = paginator.page(1)
+    except EmptyPage:
+        items = paginator.page(paginator.num_pages)
+
     return render(request, "items.html", {"items": items})
 
 
