@@ -22,22 +22,30 @@
         </div>
     </div>
 </div> 
-<div class="pagination">
+<div class="pagination justify-content-center">
     {% if items.has_previous %}
-        <a href="?page1"></a>
-        <a href="?page={{ items.previous_page_number }}"></a>
+        <a href="?page1" class="pagination-action">
+            <i class="fas fa-angle-double-left"></i>
+        </a>
+        <a href="?page={{ items.previous_page_number }}" class="pagination-action">
+           <i class="fas fa-angle-left"></i> 
+        </a>
     {% endif %}
 
     {% for num in items.paginator.page_range %}
         {% if items.number == num %}
-            <strong>{{ num }}</strong>
-        {% elif num >= items.number|add:'-3' and num <= items.number|add:'3' %}
-            {{ num }}
+            <span class="pagination-number pagination-current">{{ num }}</span>
+        {% elif num >= items.number|add:'-2' and num <= items.number|add:'2' %}
+            <a class="pagination-number" href="?page={{ num }}">{{ num}}</a>
         {% endif %}
     {% endfor %}
     {% if items.has_next %}
-        <a href="?page={{ items.next_page_number }}"></a>
-        <a href="?page={{ items.paginator.num_pages }}"></a>
+        <a href="?page={{ items.next_page_number }}" class="pagination-action">
+            <i class="fas fa-angle-right"></i>
+        </a>
+        <a href="?page={{ items.paginator.num_pages }}" class="pagination-action">
+            <i class="fas fa-angle-double-right"></i>
+        </a>
     {% endif %}
 
 </div>  

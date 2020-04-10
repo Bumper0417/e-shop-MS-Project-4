@@ -249,3 +249,4 @@ I recieved inspiration from sites such as:
 - [Django](https://docs.djangoproject.com/en/3.0/topics/db/models/#extra-fields-on-many-to-many-relationships)
 - [Github](https://github.com/Code-Institute-Submissions/COOK-BOOK-4)
 - [Mini-Project](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+F101+2017_T1/courseware/c95cdb47b7bb40e49bbfb75cb4c29114/aeae610154354469a5a902a7f5458d93/?child=last)
+- [Django-Pagination-Tutorial](https://www.youtube.com/watch?v=Z8MDdDyB_6A)

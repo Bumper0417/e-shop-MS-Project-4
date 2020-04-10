@@ -11,7 +11,6 @@ def all_items(request):
     paginator = Paginator(items, 12)
 
     page = request.GET.get('page')
-        #?page=2
     try:
         items = paginator.page(page)
     except PageNotAnInteger:
