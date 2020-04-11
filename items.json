@@ -1,0 +1,1379 @@
+[
+{
+  "model": "items.item",
+  "pk": 9,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey(Black Edition).",
+    "code": "1234.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/freak2_Man.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 10,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Green Edition)",
+    "code": "1235.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/green_woman.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 11,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersy",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey(Green Edition)",
+    "code": "1236.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/green_freak_man.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 12,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersy",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey(Special Edition)",
+    "code": "1237.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/cream_Giannis.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 13,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Black Edition)",
+    "code": "1238.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/wom.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 14,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Special Edition)",
+    "code": "1239.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/cream_woman.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 15,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Black Edition)",
+    "code": "1230.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/child.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 16,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Green Edition)",
+    "code": "1211.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/kidsgreen.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 17,
+  "fields": {
+    "name": "Greek Freak Jersey",
+    "introduction": "Milwaukee Bucks Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Milwaukee Bucks 2020 jersey (Special Edition)",
+    "code": "1313.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/crema1.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 18,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Special Edition)",
+    "code": "1221.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/bron_man.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 19,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Yellow Edition)",
+    "code": "1220.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/bronyellow.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 20,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Purple Edition)",
+    "code": "1223.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/bron_purple.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 21,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Yellow Edition)",
+    "code": "1224.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/yellow.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 22,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Purple Edition)",
+    "code": "1225.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/purple.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 23,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Special Edition)",
+    "code": "1226.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/white3.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 24,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Purple Edition)",
+    "code": "1227.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/kids2bron.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 25,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Yellow Edition)",
+    "code": "1228.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/kids23.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 26,
+  "fields": {
+    "name": "Lebron James Jersey",
+    "introduction": "Los Angeles Lakers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Lakers 2020 jersey (Special Edition)",
+    "code": "1229.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/bronny.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 27,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Red Edition)",
+    "code": "1311.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/hardenred.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 28,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Black Edition)",
+    "code": "1312.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/hardenblack.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 29,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Special Edition)",
+    "code": "1313.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/hrad.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 30,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Special Edition)",
+    "code": "1314.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/specwom.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 31,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Red Edition)",
+    "code": "1314.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/wom_Ay5FR72.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 32,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(White Edition)",
+    "code": "1315.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/whitey.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 33,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Black Edition)",
+    "code": "1316.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/kidblack.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 34,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(Special Edition)",
+    "code": "1317.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/kidsspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 35,
+  "fields": {
+    "name": "James Harden Jersey",
+    "introduction": "Houston Rockets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Houston Rockets 2020 jersey(White Edition)",
+    "code": "1318.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/hardy.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 36,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Blue Edition)",
+    "code": "1319.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/kaw.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 37,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Black Edition)",
+    "code": "1410.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/kawblack.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 38,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Special Edition)",
+    "code": "1411.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/kawhi.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 39,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Blue Edition)",
+    "code": "1413.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/leowoman.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 40,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(White Edition)",
+    "code": "1415.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/womwhite.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 41,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Special Edition)",
+    "code": "1416.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/womspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 42,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Special Edition)",
+    "code": "1418.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/kidskawhi.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 43,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(Blue Edition)",
+    "code": "1419.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/bluekids.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 44,
+  "fields": {
+    "name": "Kawhi Leonard Jersey",
+    "introduction": "Los Angeles Clippers jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Los Angeles Clippers 2020 jersey(White Edition)",
+    "code": "1510.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/kaw4.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 45,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Special Edition)",
+    "code": "1511.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/steph1.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 46,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Blue Edition)",
+    "code": "1512.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/steph2.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 47,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(White Edition)",
+    "code": "1514.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/steph5.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 48,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Blue Edition)",
+    "code": "1516.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/stephwom.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 49,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Special Edition)",
+    "code": "1517.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/stephspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 50,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(White Edition)",
+    "code": "1517.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/womcurry.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 51,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden States Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Special Edition)",
+    "code": "1518.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/stephkidspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 52,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golden State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Blue Edition)",
+    "code": "1519.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/stephkid1.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 53,
+  "fields": {
+    "name": "Steph Curry Jersey",
+    "introduction": "Golen State Warriors Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors 2020 jersey(Black Edition)",
+    "code": "1610.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/stephkid2.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 54,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Special Edition)",
+    "code": "1612.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/kyriespecial.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 55,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Grey Edition)",
+    "code": "1613.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/kyriegrey.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 56,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Black Edition)",
+    "code": "2111.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/kyrieblack.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 57,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Special Edition)",
+    "code": "2112.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/irvingwomanspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 58,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(White Edition)",
+    "code": "2123.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/irvingwhite.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 59,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Black Edition)",
+    "code": "2133.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/irvingwomblack.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 60,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Grey Edition)",
+    "code": "2144.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/irvkidsgrey.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 61,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Black Edition)",
+    "code": "2244.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/irvkidsblack.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 62,
+  "fields": {
+    "name": "Kyrie Irving Jersey",
+    "introduction": "Brooklyn Nets Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Brooklyn Nets 2020 jersey(Special Edition)",
+    "code": "2155.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/irvkidsspecial.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 63,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Special Edition)",
+    "code": "4111.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "45.00",
+    "image": "images/embiidspecial.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 64,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(White Edition)",
+    "code": "5111.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/embiidwhite.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 65,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Blue Edition)",
+    "code": "5122.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "40.00",
+    "image": "images/embiidblue.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 66,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Special Edition)",
+    "code": "5244.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "38.00",
+    "image": "images/emspec.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 67,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Blue Edition)",
+    "code": "6111.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/emblue.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 68,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Red Edition)",
+    "code": "6123.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "35.00",
+    "image": "images/emred.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 69,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Special Edition)",
+    "code": "7711.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/emkidspe.png"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 70,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Blue Edition)",
+    "code": "7722.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/emkidblue.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 71,
+  "fields": {
+    "name": "Joel Embiid Jersey",
+    "introduction": "Philadelphia 76ers",
+    "features": "100% cotton",
+    "description": "This is the home version of Philadelphia 76ers 2020 jersey(Black Edition)",
+    "code": "7733.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/emkidblack.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 72,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Orlando Magic 90's jersey(Retro Edition)",
+    "code": "7748.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "12.00",
+    "image": "images/retroman3.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 73,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Chicago Bulls 90's jersey(Red Edition)",
+    "code": "7756.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "10.00",
+    "image": "images/retroman1.jpeg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 74,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Chicago Bulls 90's jersey(White Edition)",
+    "code": "7776.00",
+    "categories": "m",
+    "availability": "10.00",
+    "price": "25.00",
+    "image": "images/retroman2.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 75,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of LA Lakers 90's jersey(Retro Edition)",
+    "code": "7732.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "10.00",
+    "image": "images/retrowoman1.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 76,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of Golden State Warriors  2019 jersey(Black Edition)",
+    "code": "8822.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "27.00",
+    "image": "images/retrowoman3.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 77,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the home version of LA Lakers 2015 jersey(White Edition)",
+    "code": "8832.00",
+    "categories": "w",
+    "availability": "10.00",
+    "price": "22.00",
+    "image": "images/retrowoman2.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 78,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Minnesota Timberwolves 90's jersey(Retro Edition)",
+    "code": "8877.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "10.00",
+    "image": "images/retrokids2.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 79,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Houston Rockets 90's jersey(Red Edition)",
+    "code": "8888.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "20.00",
+    "image": "images/retrokids3.jpg"
+  }
+},
+{
+  "model": "items.item",
+  "pk": 80,
+  "fields": {
+    "name": "Retro Jersey",
+    "introduction": "Retro NBA Jersey",
+    "features": "100% cotton",
+    "description": "This is the retro version of Phoenix Suns 90's jersey(Retro Edition)",
+    "code": "9911.00",
+    "categories": "k",
+    "availability": "10.00",
+    "price": "23.00",
+    "image": "images/retrokids1.jpg"
+  }
+},
+{
+  "model": "items.size",
+  "pk": 1,
+  "fields": {
+    "size": "s",
+    "item": []
+  }
+},
+{
+  "model": "items.size",
+  "pk": 2,
+  "fields": {
+    "size": "m",
+    "item": []
+  }
+},
+{
+  "model": "items.size",
+  "pk": 3,
+  "fields": {
+    "size": "l",
+    "item": []
+  }
+},
+{
+  "model": "items.size",
+  "pk": 4,
+  "fields": {
+    "size": "s",
+    "item": [
+      9
+    ]
+  }
+},
+{
+  "model": "items.size",
+  "pk": 5,
+  "fields": {
+    "size": "m",
+    "item": [
+      9
+    ]
+  }
+},
+{
+  "model": "items.size",
+  "pk": 6,
+  "fields": {
+    "size": "l",
+    "item": [
+      9
+    ]
+  }
+},
+{
+  "model": "items.size",
+  "pk": 7,
+  "fields": {
+    "size": "s",
+    "item": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  }
+},
+{
+  "model": "items.size",
+  "pk": 8,
+  "fields": {
+    "size": "m",
+    "item": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  }
+},
+{
+  "model": "items.size",
+  "pk": 9,
+  "fields": {
+    "size": "l",
+    "item": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ]
+  }
+}
+]
