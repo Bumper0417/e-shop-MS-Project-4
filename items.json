@@ -11,7 +11,7 @@
     "categories": "m",
     "availability": "10.00",
     "price": "40.00",
-    "image": "images/freak2_Man.jpg"
+    "image": "images/freak2Man.jpg"
   }
 },
 {
@@ -26,7 +26,7 @@
     "categories": "w",
     "availability": "10.00",
     "price": "35.00",
-    "image": "images/green_woman.jpg"
+    "image": "images/greenwoman.jpg"
   }
 },
 {
@@ -41,7 +41,7 @@
     "categories": "m",
     "availability": "10.00",
     "price": "40.00",
-    "image": "images/green_freak_man.jpg"
+    "image": "images/greenfreakman.jpg"
   }
 },
 {
@@ -56,7 +56,7 @@
     "categories": "m",
     "availability": "10.00",
     "price": "45.00",
-    "image": "images/cream_Giannis.jpg"
+    "image": "images/creamGiannis.jpg"
   }
 },
 {
@@ -86,7 +86,7 @@
     "categories": "w",
     "availability": "10.00",
     "price": "38.00",
-    "image": "images/cream_woman.jpeg"
+    "image": "images/creamwoman.jpeg"
   }
 },
 {
@@ -146,7 +146,7 @@
     "categories": "m",
     "availability": "10.00",
     "price": "45.00",
-    "image": "images/bron_man.jpg"
+    "image": "images/bronman.jpg"
   }
 },
 {
@@ -176,7 +176,7 @@
     "categories": "m",
     "availability": "10.00",
     "price": "40.00",
-    "image": "images/bron_purple.jpg"
+    "image": "images/bronpurple.jpg"
   }
 },
 {
