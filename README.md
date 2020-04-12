@@ -147,11 +147,11 @@ The biggest problem I faced when creating this website was how to identify and i
 
 My webpage is hosted in Github and deployed directly from the master branch. The whole project can be viewed here:
 
-[Bumper-e-shop-MS-Project-4]()
+[Bumper-e-shop-MS-Project-4](https://github.com/Bumper0417/e-shop-MS-Project-4)
 
 In addition my project is deployed in Heroku and the live link can be viewed here: 
 
-[NBA-Eshop]()
+[NBA-Eshop](https://e-shop-ms-project4.herokuapp.com/)
 
 ### In details
 
