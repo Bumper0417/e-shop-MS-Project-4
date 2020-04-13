@@ -48,6 +48,9 @@ h4 a{
     min-height: 80vh;
 }
 
+.image-size{
+    height:100vh;
+}
 
 /*-----------------Navigation Bar Styling--------------*/
 
