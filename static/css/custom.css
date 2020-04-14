@@ -130,8 +130,8 @@ ul.navbar-nav.ml-auto li a:hover {
 }
 
 .form-inline {
-    width:40%;
-    display: block;
+    width: 20vw;
+    display: contents;
     margin:0 auto;
 }
 
@@ -325,5 +325,9 @@ caption p {
     flex: 0 0 16.666667%;
     max-width: 100%;
     }
+    .navbar-nav {
+    display: -webkit-inline-box;
+    }
+
 }
     
