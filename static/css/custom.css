@@ -178,6 +178,12 @@ ul.navbar-nav.ml-auto li a:hover {
     color: black;
 }
 
+/*-------------Forms--------*/
+
+p.help-block {
+    display: none;
+}
+
 /*-----------------Animation for Icons--------------*/
 
 .heartBeat {
