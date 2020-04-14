@@ -86,6 +86,7 @@ ul.navbar-nav.ml-auto li a:hover {
 .fa-grin-hearts{
     color:#54b842;
 }
+
 /*---------Pagination-------------*/
 
 .pagination{
@@ -249,6 +250,8 @@ footer {
 
 .accountform {
     padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .badge {
