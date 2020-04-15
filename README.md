@@ -131,7 +131,9 @@ In the future I would like to add some customer review pages where users can lea
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
-| Type in the Search box and press the Search Button | Displays results filtered by the words you have written in the input field or displays a message says that item not found | As Expected | Pass |
+| Press the Search box without typing something in the input | Displays all the items that the site has | As Expected | Pass |
+| Press the Search box after typing a random word in the input | Displays a message that no items found and suggest to search for another NBA player | As Expected | Pass |
+| Press the Search box after typing a players name in the input | Displays either results of items for the player you wrote or shows the message no items found and suggest to search for another NBA player | As Expected | Pass |
 
 **Styling of the Webpage:**
 
@@ -142,6 +144,18 @@ In the future I would like to add some customer review pages where users can lea
 - The Navigation Bar that the webpage is using is tested for all the types of devices and is working properly.
 
 - The site is tested in a variety of devices such as iPhones(4 to 10), Samsung Galaxy, Ipads and Desktops. Besides it's tested to all the possible browsers: Chrome, Safari, Internet Explorer, Firefox and I assure that it is compatible and responsive.
+
+**Authorisation/Authentication**
+
+| Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
+| :-------------: |:----------------:| :--------------: | :---------: |
+| Click on "Forgot my password under the login form" | Displays an input button for the user to enter their e-mail and get instruction on how to reset their password | As Expected | Pass |
+| Open the email you received and click on the link to reset your password | Redirects the user to a page where they can set a new password  | As Expected | Pass |
+| Type your new password twice without matching the 2 inputs | Gives an error that request is invalid and sends a new link for reseting the password | As Expected | Pass |
+| Type your new password twice after matching the 2 inputs | Displays a message that your entry was correct and gives you the link to log in again | As Expected | Pass |
+
+**Payment Form/Validation**
+
 
 The biggest problem I faced when creating this website was how to identify and implement the search functionality, which in the end it was a very interesting feature.
 

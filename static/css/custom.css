@@ -15,17 +15,6 @@ h4 a{
     color: white;
 }
 
-/* Below adjusts the heigth of the caroursel and allows your footer to rise higher in the page */
-/* .carousel{
-    height:px;
-} */
-
-/* Below adjusts the image, you may want to experiment with relative sizing to match the carousel */
-/* .carousel-item{
-    height:900px;
-    width:1440px;
-}  */
-
 .carousel-caption {
     position: absolute;
     right: 15%;
