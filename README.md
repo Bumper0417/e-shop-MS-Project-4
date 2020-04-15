@@ -156,6 +156,10 @@ In the future I would like to add some customer review pages where users can lea
 
 **Payment Form/Validation**
 
+| Click on "Submit Payment" button without entering all the fields | Dispays validation error in each specific fieldd that is required | As Expected | Pass |
+| Click on "Submit Payment" button after entering incorrectly all the fields | Displays an error message at the bottom of the page saying the user which field was not correct | As Expected | Pass |
+| Click on "Submit Payment" button after entering correctly all the fields | Displays a message at the top of the page saying You have successfully paid | As Expected | Pass |
+
 
 The biggest problem I faced when creating this website was how to identify and implement the search functionality, which in the end it was a very interesting feature.
 
