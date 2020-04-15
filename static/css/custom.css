@@ -49,7 +49,8 @@ h4 a{
 }
 
 .image-size{
-    height:100vh;
+    height:100%;
+    width:auto;
 }
 
 /*-----------------Navigation Bar Styling--------------*/
@@ -182,6 +183,15 @@ ul.navbar-nav.ml-auto li a:hover {
 
 p.help-block {
     display: none;
+}
+
+/*-------------Payment Errors--------*/
+
+#stripe-error-message {
+    background-color: antiquewhite;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*-----------------Animation for Icons--------------*/

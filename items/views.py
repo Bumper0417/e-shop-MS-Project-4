@@ -9,7 +9,7 @@ def all_items(request):
     items = Item.objects.all().order_by('id')
     # Inserted Pagination for my items
     paginator = Paginator(items, 12)
-
+    
     page = request.GET.get('page')
     try:
         items = paginator.page(page)
