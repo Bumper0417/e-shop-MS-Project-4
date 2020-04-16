@@ -250,6 +250,10 @@ And the base.html file which is the main Html page of my project.
 12. A travis.yml for testing the deployment
 13. A custom_storages Python file used for storing my data in the AWS console.
 14. An env.py file that hosts all the important keys of my webpage and is pushed in the .gitignore file.
+15. A Procfile required for deployment in Heroku.
+16. A json file to make good use of data in the webpage.
+
+All my images for the items and thee carousel are stored in AWS s3 bucket.
 
 ## Credits
 
