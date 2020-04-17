@@ -163,6 +163,8 @@ In the future I would like to add some customer review pages where users can lea
 
 The biggest problem I faced when creating this website was how to identify and implement the search functionality, which in the end it was a very interesting feature.
 
+Also in Heroku it might need a hard reload of the webpage when trying to submit the password_reset!
+
 ## Deployment
 
 My webpage is hosted in Github and deployed directly from the master branch. The whole project can be viewed here:
