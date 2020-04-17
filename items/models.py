@@ -22,7 +22,7 @@ class Item(models.Model):
     def __str__(self):
         return self.name
 
-
+"""Connects the size with the Item in the Admin Panel"""
 class Size(models.Model):
     sizes_choices = (
         ('s', 'Small'),
