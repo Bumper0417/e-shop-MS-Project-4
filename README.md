@@ -255,6 +255,8 @@ And the base.html file which is the main Html page of my project.
 
 All my images for the items and thee carousel are stored in AWS s3 bucket.
 
+In my settings file i have included my 'local host' and my heroku link in the ALLOWED_HOSTS section. Besides the Debug was set to False before deployment and all my SECRET_KEY's as well as the passwords required for the website are hosted in the env.py file which is ignored from github repository. I have also included there my INSTALED_APPS and templates set an if statement for my DATABASES. There are also included the AUTH_PASSWORD_VALIDATORS and AUTHENTICATION_BACKENDS required for my app.
+
 ## Credits
 
 ### Content
